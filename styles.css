@@ -1,0 +1,29 @@
+li:hover {
+    background-color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+li:active {
+    background-color: rgb(30, 47, 139);
+    font-style: italic;
+}
+
+li::before {
+    content: "🩸"
+}
+
+li:hover::after {
+    content: "vote for me!";
+    margin-left: 12px;
+    font-weight: bold;
+    color:beige;
+}
+
+li:active::before {
+    content: "🧬"
+}
+
+ul {
+    list-style: none;
+}
